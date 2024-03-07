@@ -1,0 +1,25 @@
+{
+    "botoes_cards":[
+        {
+            "label": "Valor da Parcela" ,
+            "valor":"$simulacao.getValorParcela()"
+        },
+        { 
+            "label": "Tipo de Seguro" ,
+            "valor":"$simulacao.getTipoSeguro()"
+        },
+        { 
+            "label": "Quantidade de Parcelas" ,
+            "valor":"$simulacao.getQuantidadeParcelas()"
+        },
+        { 
+            "label": "Taxa de Juros" ,
+            "valor":"$simulacao.getTaxaJuros()"
+        },
+        { 
+            "label": "Total a Pagar" ,
+            "valor":"$simulacao.getTotalPagar()"
+        }
+    ]
+}
+   
